@@ -15,6 +15,12 @@ L'API demarre par defaut sur `http://localhost:3000`.
 - `GET /health` -> retourne `{ "status": "ok" }`
 
 ## Objectifs du candidat
+Tu as un repo déjà cloné.
+Il contient une API minimaliste (ou un squelette).
+- Ta mission: implémenter 2 endpoints + 1 règle métier + une validation.
+-Tu as 25 minutes.
+-Tu peux écrire des tests si tu as le temps, mais c’est optionnel.
+On évalue surtout la structure, la lisibilité et les choix.
 Le candidat doit implementer les routes de gestion de taches a partir du squelette fourni:
 - CRUD complet sur `/tasks`
 - Validation des payloads (les schemas sont deja dans `src/validators/`)
